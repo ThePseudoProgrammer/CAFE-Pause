@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="500" fill="#ded8cd"/>
+  <g fill="none" stroke="#a65d38" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(200 250)">
+    <path d="M-80 20 Q-80 -40 -30 -40 L30 -40 Q80 -40 80 20 Q80 60 40 60 L-40 60 Q-80 60 -80 20 Z"/>
+    <path d="M-50 -40 Q-40 -70 -20 -70 M0 -40 Q10 -70 30 -70"/>
+  </g>
+  <text x="200" y="420" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#77736b" text-anchor="middle" letter-spacing="2">PAUSE.</text>
+</svg>

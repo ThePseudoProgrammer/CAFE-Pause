@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PAUSE. — спешелти-кофейня в Свердловском. Авторский кофе, свежая выпечка и место, где можно ненадолго замедлиться."
+    />
+    <meta
+      name="keywords"
+      content="кофейня, спешелти кофе, Свердловский, капучино, бронь столика, PAUSE"
+    />
+    <meta name="author" content="PAUSE. Coffee" />
+    <title>PAUSE. — Кофейня</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <header class="container header">
+      <a href="#top" class="logo">PAUSE.</a>
+      <nav class="nav" id="site-nav">
+        <ul class="list-reset">
+          <li>
+            <a href="#about">О нас</a>
+          </li>
+          <li>
+            <a href="#menu">Меню</a>
+          </li>
+          <li>
+            <a href="#gallery">Галерея</a>
+          </li>
+          <li>
+            <a href="#contact">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn">ЗАБРОНИРОВАТЬ СТОЛИК →</a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        ☰
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="container hero">
+        <div>
+          <span class="eyebrow">Спешелти-кофе / С 2026 года</span>
+          <h1>СДЕЛАЙ<br />ПАУЗУ.</h1>
+          <p class="hero-description">
+            Авторский кофе, свежая выпечка и тихое место в Свердловском — сюда
+            заходят на 15 минут и иногда остаются на весь вечер.
+          </p>
+          <a href="#menu" class="btn">СМОТРЕТЬ МЕНЮ →</a>
+          <span class="hero-note">Кофе для твоей ежедневной паузы.</span>
+        </div>
+        <div class="hero-image">
+          <img
+            src="img/hero.avif"
+            alt="Чашка капучино на деревянном столе"
+            loading="eager"
+            onerror="
+              this.onerror = null;
+              this.src = 'img/placeholder-interior.svg';
+            "
+          />
+        </div>
+      </section>
+
+      <section class="container section about" id="about">
+        <div>
+          <span class="eyebrow">01 / Наша концепция</span>
+        </div>
+        <div>
+          <h2>
+            ХОРОШИЙ КОФЕ<br />ДАЁТ ТЕБЕ<br /><span>ПОВОД ЗАМЕДЛИТЬСЯ.</span>
+          </h2>
+          <p class="about-text">
+            PAUSE. — небольшая кофейня в Свердловском. Мы работаем на зерне
+            свежей обжарки из России, печём круассаны по утрам и оставляем
+            розетки свободными, если нужно посидеть с ноутбуком.
+          </p>
+        </div>
+      </section>
+
+      <section class="container section">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">02 / Почему PAUSE?</span>
+            <h2>ПОЧЕМУ PAUSE?</h2>
+          </div>
+        </div>
+        <ul class="benefits list-reset">
+          <li class="benefit">
+            <span class="benefit-number">01</span>
+            <div>
+              <h3>СВЕЖЕЕ ЗЕРНО</h3>
+              <p>
+                Каждую неделю привозим эспрессо-смесь и фильтр. Если зерно лежит
+                дольше десяти дней — не варим.
+              </p>
+            </div>
+            <span class="arrow">↗</span>
+          </li>
+          <li class="benefit">
+            <span class="benefit-number">02</span>
+            <div>
+              <h3>ВРЕМЯ ДЛЯ СЕБЯ</h3>
+              <p>
+                Тихий зал, мягкий свет и столы у окна. Можно поработать,
+                встретиться или просто посидеть без наушников.
+              </p>
+            </div>
+            <span class="arrow">↗</span>
+          </li>
+          <li class="benefit">
+            <span class="benefit-number">03</span>
+            <div>
+              <h3>СДЕЛАНО С ЗАБОТОЙ</h3>
+              <p>
+                Бариста запомнит, как вы пьёте капучино. Альтернативное молоко и
+                безглютеновый брауни — без лишних вопросов.
+              </p>
+            </div>
+            <span class="arrow">↗</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container section" id="menu">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">03 / Кофе и выпечка</span>
+            <h2>НАШЕ МЕНЮ</h2>
+          </div>
+          <button class="eyebrow menu-more" type="button">
+            Смотреть всё меню →
+          </button>
+        </div>
+        <ul class="menu-grid list-reset">
+          <li class="menu-card">
+            <div class="menu-image">
+              <img
+                src="img/menu-image-1.jpg"
+                alt="Капучино"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src = 'img/placeholder-coffee.svg';
+                "
+              />
+            </div>
+            <h3>КАПУЧИНО</h3>
+            <p>Двойной эспрессо и молоко, взбитое до шелковистой пенки.</p>
+            <span class="price">250 ₽</span>
+          </li>
+          <li class="menu-card">
+            <div class="menu-image">
+              <img
+                src="img/menu-image-2.avif"
+                alt="Эспрессо"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src = 'img/placeholder-coffee.svg';
+                "
+              />
+            </div>
+            <h3>ЭСПРЕССО</h3>
+            <p>Двойная порция нашей смеси. Коротко, плотно, без горечи.</p>
+            <span class="price">180 ₽</span>
+          </li>
+          <li class="menu-card">
+            <div class="menu-image">
+              <img
+                src="img/menu-image-3.avif"
+                alt="Латте"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src = 'img/placeholder-coffee.svg';
+                "
+              />
+            </div>
+            <h3>ЛАТТЕ</h3>
+            <p>Больше молока, мягкий вкус. Можно на овсяном или миндальном.</p>
+            <span class="price">290 ₽</span>
+          </li>
+          <li class="menu-card">
+            <div class="menu-image">
+              <img
+                src="img/menu-image-4.avif"
+                alt="Колд брю"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src = 'img/placeholder-coffee.svg';
+                "
+              />
+            </div>
+            <h3>КОЛД БРЮ</h3>
+            <p>Кофе холодного заваривания. Настаиваем 16 часов.</p>
+            <span class="price">320 ₽</span>
+          </li>
+          <li class="menu-card is-hidden">
+            <div class="menu-image">
+              <img
+                src="img/menu-image-5.avif"
+                alt="Фильтр-кофе"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src = 'img/placeholder-coffee.svg';
+                "
+              />
+            </div>
+            <h3>ФИЛЬТР</h3>
+            <p>Сезонный лот под воронкой V60. Каждый день — новый профиль.</p>
+            <span class="price">300 ₽</span>
+          </li>
+          <li class="menu-card is-hidden">
+            <div class="menu-image">
+              <img
+                src="img/menu-image-6.avif"
+                alt="Круассан"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src = 'img/placeholder-bakery.svg';
+                "
+              />
+            </div>
+            <h3>КРУАССАН</h3>
+            <p>Сливочное масло, хрустящие слои. К 10 утра обычно ещё есть.</p>
+            <span class="price">230 ₽</span>
+          </li>
+          <li class="menu-card is-hidden">
+            <div class="menu-image">
+              <img
+                src="img/menu-image-7.avif"
+                alt="Брауни"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src = 'img/placeholder-bakery.svg';
+                "
+              />
+            </div>
+            <h3>БРАУНИ</h3>
+            <p>Шоколад и грецкий орех. Есть безглютеновая версия — спросите.</p>
+            <span class="price">270 ₽</span>
+          </li>
+          <li class="menu-card is-hidden">
+            <div class="menu-image">
+              <img
+                src="img/menu-image-8.avif"
+                alt="Флэт уайт"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src = 'img/placeholder-coffee.svg';
+                "
+              />
+            </div>
+            <h3>ФЛЭТ УАЙТ</h3>
+            <p>
+              Двойной ристретто и тонкий слой микропены. Для тех, кто любит кофе
+              сильнее молока.
+            </p>
+            <span class="price">270 ₽</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container section" id="gallery">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">04 / Внутри PAUSE</span>
+            <h2>ВНУТРИ PAUSE.</h2>
+          </div>
+          <p class="hero-description">
+            Нажмите на фото — откроется крупнее. Приходите за кофе, оставайтесь
+            ради света из окна.
+          </p>
+        </div>
+        <div class="gallery">
+          <button class="gallery-item big" type="button">
+            <img
+              src="img/gallery-1.avif"
+              alt="Зал кофейни со столиками у окна"
+              loading="lazy"
+              onerror="
+                this.onerror = null;
+                this.src = 'img/placeholder-gallery.svg';
+              "
+            />
+          </button>
+          <button class="gallery-item" type="button">
+            <img
+              src="img/gallery-2.avif"
+              alt="Бариста за стойкой"
+              loading="lazy"
+              onerror="
+                this.onerror = null;
+                this.src = 'img/placeholder-gallery.svg';
+              "
+            />
+          </button>
+          <button class="gallery-item" type="button">
+            <img
+              src="img/gallery-3.avif"
+              alt="Кофейня утром"
+              loading="lazy"
+              onerror="
+                this.onerror = null;
+                this.src = 'img/placeholder-gallery.svg';
+              "
+            />
+          </button>
+          <button class="gallery-item wide" type="button">
+            <img
+              src="img/gallery-4.avif"
+              alt="Чашка фильтр-кофе"
+              loading="lazy"
+              onerror="
+                this.onerror = null;
+                this.src = 'img/placeholder-gallery.svg';
+              "
+            />
+          </button>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <p class="quote">
+          «ЛУЧШИЕ МОМЕНТЫ ЧАСТО НАЧИНАЮТСЯ С НЕБОЛЬШОЙ ПАУЗЫ.»
+        </p>
+        <p class="quote-author">— PAUSE. КОФЕ</p>
+      </section>
+
+      <section class="container section contact" id="contact">
+        <div>
+          <span class="eyebrow">05 / Приходи в гости</span>
+          <h2>ДАВАЙ<br />ВСТРЕТИМСЯ.</h2>
+          <p class="contact-intro">
+            Столик у окна лучше занять заранее — по вечерам в пятницу свободных
+            почти не бывает.
+          </p>
+          <form class="booking-form js-booking-form" action="#" method="post">
+            <label for="name">Имя</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Как к вам обращаться"
+              required
+            />
+            <label for="phone">Телефон</label>
+            <input
+              id="phone"
+              name="phone"
+              type="tel"
+              placeholder="+7 (999) 123-45-67"
+              required
+            />
+            <div class="form-row">
+              <div>
+                <label for="date">Дата</label>
+                <input id="date" name="date" type="date" required />
+              </div>
+              <div>
+                <label for="time">Время</label>
+                <input
+                  id="time"
+                  name="time"
+                  type="time"
+                  value="10:00"
+                  required
+                />
+              </div>
+            </div>
+            <label for="guests">Гостей</label>
+            <select id="guests" name="guests">
+              <option value="1">1 человек</option>
+              <option value="2" selected>2 человека</option>
+              <option value="3">3 человека</option>
+              <option value="4">4 человека</option>
+              <option value="5">5 человек</option>
+              <option value="6">6 человек</option>
+              <option value="7">7 человек</option>
+              <option value="8">8 человек</option>
+            </select>
+            <p class="form-message js-form-message" aria-live="polite"></p>
+            <button class="btn" type="submit">ЗАБРОНИРОВАТЬ СТОЛИК →</button>
+          </form>
+          <a
+            class="btn"
+            href="https://maps.google.com/?q=Молодёжная+1+Свердловский"
+            target="_blank"
+            rel="noopener noreferrer"
+            >КАК ДОБРАТЬСЯ →</a
+          >
+        </div>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <h3>Адрес</h3>
+            <p>ул. Молодёжная, 1<br />Московская обл., Свердловский</p>
+          </div>
+          <div class="contact-item">
+            <h3>Часы работы</h3>
+            <table class="hours-table">
+              <tbody>
+                <tr>
+                  <td>Пн — Пт</td>
+                  <td>08:00 — 21:00</td>
+                </tr>
+                <tr>
+                  <td>Сб — Вс</td>
+                  <td>09:00 — 22:00</td>
+                </tr>
+              </tbody>
+            </table>
+            <span class="hours-status js-hours-status"></span>
+          </div>
+          <div class="contact-item">
+            <h3>Контакты</h3>
+            <p>
+              <a href="mailto:hello@pause.coffee">hello@pause.coffee</a><br />
+              <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <div>
+        <div class="logo">PAUSE.</div>
+        <p class="footer-text">Кофе для твоей ежедневной паузы.</p>
+      </div>
+      <ul class="socials list-reset">
+        <li>
+          <a href="https://www.vk.ru/" target="_blank" rel="noopener noreferrer"
+            >VK</a
+          >
+        </li>
+        <li>
+          <a href="https://max.ru/" target="_blank" rel="noopener noreferrer"
+            >MAX</a
+          >
+        </li>
+        <li>
+          <a href="https://ok.ru/" target="_blank" rel="noopener noreferrer"
+            >Одноклассники</a
+          >
+        </li>
+      </ul>
+      <p class="copyright">
+        © 2026 PAUSE. /
+        <button class="js-privacy-open" type="button">
+          Политика конфиденциальности
+        </button>
+      </p>
+    </footer>
+
+    <div
+      class="overlay js-lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Просмотр фото"
+    >
+      <button
+        class="overlay-close js-overlay-close"
+        type="button"
+        aria-label="Закрыть"
+      >
+        ×
+      </button>
+      <img class="js-lightbox-image" src="" alt="" />
+    </div>
+
+    <div
+      class="overlay js-privacy"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="privacy-title"
+    >
+      <button
+        class="overlay-close js-overlay-close"
+        type="button"
+        aria-label="Закрыть"
+      >
+        ×
+      </button>
+      <div class="privacy-box">
+        <h2 id="privacy-title">Политика конфиденциальности</h2>
+        <p>
+          Имя и телефон из формы брони нужны только чтобы подтвердить стол. Мы
+          не передаём их третьим лицам и не рассылаем рекламу.
+        </p>
+        <p>
+          Заявки на этом учебном сайте никуда не уходят: после отправки вы
+          видите сообщение на странице.
+        </p>
+        <button class="btn js-overlay-close" type="button">Понятно</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
